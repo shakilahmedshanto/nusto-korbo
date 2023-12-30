@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 88%;
+    margin-left: 98px;
+}
+ul li{
+    padding: 6px;
+}
+i{
+    color: #de7e2a;
+}
+.pp{
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(6) infinite alternate;
+    border-right: 4px solid red;
+}
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width:6ch;
+    }
+
+}
+.bb{
+    box-shadow: 0 0 1rem 1rem;
+}
